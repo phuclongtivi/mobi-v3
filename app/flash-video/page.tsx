@@ -130,7 +130,7 @@ function FlashVideoContent() {
 
 export default function Page() {
   return (
-    <Suspense fallback={<div className="page">Đang tải...</div>}>
+    <Suspense fallback={<main className="page">Đang tải...</main>}>
       <FlashVideoContent />
     </Suspense>
   );
