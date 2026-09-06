@@ -5,7 +5,9 @@
     "start": "next start",
     "cap:sync": "npx cap sync",
     "cap:add:android": "npx cap add android",
-    "cap:add:ios": "npx cap add ios"
+    "cap:add:ios": "npx cap add ios",
+    "audit:content": "node scripts/audit-content-registry.mjs",
+    "audit:specialized": "node scripts/audit-specialized.mjs"
   },
   "dependencies": {
     "next": "^15.2.4",
