@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Lang, NavChild } from "@/lib/navigation";
 import { label } from "@/lib/navigation";
 import { useEventSpace } from "@/components/EventSpaceProvider";
+import {AppearanceCenter,SoundCenter,PrivacyCenter,SecurityCenter,StickerStore,PaymentCenter} from "@/components/ContentCompletePanels";
 
 type Txt = { vi: string; en: string; zh: string };
 type Kind = "action" | "product" | "notice" | "input" | "chat" | "pay";
@@ -167,10 +168,13 @@ function actions(section: string, child: string): Act[] {
       A("promo", "Khuyến mại", "Promotion", "促销", true),
     ],
     "store.shopping:checkout": [
+      A("vietqr", "VietQR / Chuyển khoản", "VietQR / Bank Transfer", "VietQR / 银行转账", true),
+      A("momo", "MoMo", "MoMo", "MoMo", true),
+      A("zalopay", "ZaloPay", "ZaloPay", "ZaloPay"),
+      A("card", "Visa / Mastercard", "Visa / Mastercard", "Visa / Mastercard"),
+      A("apple", "Apple Pay", "Apple Pay", "Apple Pay"),
+      A("google", "Google Pay", "Google Pay", "Google Pay"),
       A("cod", "COD", "COD", "货到付款"),
-      A("bank", "Chuyển khoản", "Bank Transfer", "银行转账"),
-      A("wallet", "Ví điện tử", "Wallet", "钱包", true),
-      A("qr", "QR Pay", "QR Pay", "二维码支付", true),
     ],
     "me.profile:personal": [
       A("view", "Xem", "View", "查看"),
@@ -634,17 +638,94 @@ function getEndContent(section: string, active: NavChild, action?: Act | null): 
   return fallbackEnd(section, active, action);
 }
 
+function isTerminalAction(a: Act) {
+  return /^(save|apply|confirm|create|publish|checkout|upload|download|start|stop|take-live|leave|resolve|send|connect|checkin|arm|run)$/i.test(a.id);
+}
+
+function endLabel(section: string, active: NavChild, selected: Act | null, lang: Lang) {
+  const id = active.endType || "";
+  if (id === "createNotice") return lang === "en" ? "Save & Publish Notice" : lang === "zh" ? "保存并发布通知" : "Lưu & Đăng Thông Báo";
+  if (id === "createLive") return lang === "en" ? "Create Live Room" : lang === "zh" ? "创建直播间" : "Tạo room live";
+  if (id === "createProduct") return lang === "en" ? "Save & Publish Product" : lang === "zh" ? "保存并发布商品" : "Lưu & Đăng Sản Phẩm";
+  if (section.startsWith("studio.mixer")) return lang === "en" ? "Apply & Save" : lang === "zh" ? "应用并保存" : "Áp dụng & Lưu";
+  if (section.startsWith("studio.broadcast")) return lang === "en" ? "Apply / TAKE LIVE" : lang === "zh" ? "应用 / 切入直播" : "Áp dụng / TAKE LIVE";
+  if (selected?.id === "send") return lang === "en" ? "Send" : lang === "zh" ? "发送" : "Gửi";
+  return lang === "en" ? "Complete" : lang === "zh" ? "完成" : "Hoàn tất";
+}
+
+function AIFlashWorkspace({ lang, onBack, record }: { lang: Lang; onBack: () => void; record: ReturnType<typeof useEventSpace>["record"] }) {
+  type Msg = { role: "user" | "ai"; body: string };
+  const [messages, setMessages] = useState<Msg[]>([]);
+  const [text, setText] = useState("");
+  const [saved, setSaved] = useState(false);
+  const storageKey = "long-ai-flash-chat-v1";
+
+  useEffect(() => {
+    try { setMessages(JSON.parse(localStorage.getItem(storageKey) || "[]")); } catch { setMessages([]); }
+  }, []);
+
+  function persist(next: Msg[]) {
+    setMessages(next);
+    try { localStorage.setItem(storageKey, JSON.stringify(next.slice(-80))); } catch {}
+  }
+
+  function send(body = text) {
+    const clean = body.trim();
+    if (!clean) return;
+    const next: Msg[] = [...messages, { role: "user", body: clean }, { role: "ai", body: lang === "en" ? "Request received. AI Flash workspace keeps this conversation open for the next task." : lang === "zh" ? "已收到请求。AI Flash 工作区将保持打开，您可以继续下一项任务。" : "Đã nhận yêu cầu. AI Flash giữ nguyên workspace để bạn tiếp tục tác vụ tiếp theo." }];
+    persist(next);
+    setText("");
+    setSaved(false);
+    record({ area: "home.myai", action: "ai-flash:send", result: "end-repeat", costClass: "local", ok: true });
+  }
+
+  function save() {
+    try { localStorage.setItem("long-ai-flash-saved-result", JSON.stringify({ savedAt: new Date().toISOString(), messages })); } catch {}
+    setSaved(true);
+    record({ area: "home.myai", action: "ai-flash:save", result: "end-repeat", costClass: "local", ok: true });
+  }
+
+  const quick = lang === "en" ? ["Create event outline", "Summarize current work", "Prepare announcement"] : lang === "zh" ? ["创建活动框架", "总结当前工作", "准备通知"] : ["Dựng khung sự kiện", "Tóm tắt công việc hiện tại", "Soạn thông báo"];
+
+  return <section className="navWorkspace aiFlashWorkspace">
+    <div className="workspaceCrumbs">
+      <button type="button" className="backKey" onClick={onBack}>← Back</button>
+      <button type="button" className="crumbKey selected">AI Flash</button>
+    </div>
+    <div className="aiFlashBody">
+      <div className="aiFlashHead"><b>AI Flash</b><span>{lang === "en" ? "Chat • tasks • reusable END" : lang === "zh" ? "聊天 • 任务 • 可重复 END" : "Chat • giao việc • END lặp trong workspace"}</span></div>
+      <div className="aiFlashLog" aria-live="polite">
+        {messages.length === 0 ? <div className="aiEmpty">{lang === "en" ? "Start a conversation with AI Flash." : lang === "zh" ? "开始与 AI Flash 对话。" : "Bắt đầu trò chuyện với AI Flash."}</div> : messages.map((m, i) => <div key={i} className={`aiMsg ${m.role}`}><b>{m.role === "user" ? (lang === "vi" ? "Bạn" : lang === "zh" ? "你" : "You") : "AI Flash"}</b><span>{m.body}</span></div>)}
+      </div>
+      <div className="aiQuickRow">{quick.map(q => <button type="button" key={q} onClick={() => send(q)}>{q}</button>)}</div>
+      <div className="aiComposer">
+        <textarea value={text} onChange={e => setText(e.target.value)} placeholder={lang === "en" ? "Message AI Flash…" : lang === "zh" ? "向 AI Flash 输入消息…" : "Nhập yêu cầu cho AI Flash…"} onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }} />
+        <button type="button" className="endCommit" onClick={() => send()}>{lang === "en" ? "Send · END" : lang === "zh" ? "发送 · END" : "Gửi · END"}</button>
+      </div>
+      <div className="aiToolRow">
+        <button type="button" onClick={() => setText(quick[0])}>{lang === "vi" ? "Giao việc nhanh" : lang === "zh" ? "快速任务" : "Quick Task"}</button>
+        <button type="button" onClick={() => setText(quick[2])}>{lang === "vi" ? "Mẫu tác vụ" : lang === "zh" ? "任务模板" : "Task Template"}</button>
+        <button type="button" onClick={save}>{saved ? "✓ " : ""}{lang === "vi" ? "Lưu kết quả" : lang === "zh" ? "保存结果" : "Save Result"}</button>
+      </div>
+    </div>
+  </section>;
+}
+
 export default function Nav3Navigator({ section, items, activeId, onSelect, lang }: { section: string; items: NavChild[]; activeId: string; onSelect: (id: string) => void; lang: Lang }) {
   const active = items.find((x) => x.id === activeId) || items[0];
   const [action, setAction] = useState<Act | null>(null);
   const [selected, setSelected] = useState<Act | null>(null);
   const [openedDirectId, setOpenedDirectId] = useState<string | null>(null);
+  const [draft, setDraft] = useState("");
+  const [done, setDone] = useState(false);
   const { record } = useEventSpace();
 
   useEffect(() => {
     setAction(null);
     setSelected(null);
     setOpenedDirectId(null);
+    setDraft("");
+    setDone(false);
   }, [section]);
 
   const childActs = useMemo(() => actions(section, active.id), [section, active.id]);
@@ -652,124 +733,81 @@ export default function Nav3Navigator({ section, items, activeId, onSelect, lang
   const contentOpen = !!action || (direct && openedDirectId === active.id);
   const content = useMemo(() => getEndContent(section, active, action), [section, active, action]);
 
+  function resetToB() {
+    setAction(null); setSelected(null); setOpenedDirectId(null); setDraft(""); setDone(false);
+  }
+
   function choose3(id: string) {
     const target = items.find((x) => x.id === id);
     onSelect(id);
-    setAction(null);
-    setSelected(null);
+    setAction(null); setSelected(null); setDraft(""); setDone(false);
     setOpenedDirectId(target?.directToEnd ? id : null);
   }
 
   function choose4(a: Act) {
-    setAction(a);
-    setSelected(null);
-    setOpenedDirectId(null);
-    record({ area: section, action: `${active.id}:${a.id}`, result: "end", costClass: "local", ok: true });
+    setAction(a); setSelected(null); setDraft(""); setDone(false); setOpenedDirectId(null);
+    record({ area: section, action: `${active.id}:${a.id}`, result: "tree4-selected", costClass: "local", ok: true });
   }
 
-  function chooseEnd(a: Act) {
-    setSelected(a);
-    record({ area: section, action: `${active.id}:${action?.id || "direct"}:${a.id}`, result: "end-choice", costClass: a.id.includes("ai") ? "cloud-low" : "local", ok: true });
+  function choose5(a: Act) {
+    setSelected(a); setDraft(""); setDone(false);
+    record({ area: section, action: `${active.id}:${action?.id || "direct"}:${a.id}`, result: "tree5-selected", costClass: a.id.includes("ai") ? "cloud-low" : "local", ok: true });
+    if (isTerminalAction(a) && a.kind !== "input" && a.kind !== "chat") finishEnd(a, true);
   }
+
+  function finishEnd(a = selected, immediate = false) {
+    if (!a && !selected) return;
+    const target = a || selected!;
+    setDone(true);
+    record({ area: section, action: `${active.id}:${action?.id || "direct"}:${target.id}`, result: "END", costClass: target.id.includes("ai") ? "cloud-low" : "local", ok: true });
+    window.setTimeout(resetToB, immediate ? 700 : 900);
+  }
+
+  function backOne() {
+    if (selected) { setSelected(null); setDraft(""); setDone(false); return; }
+    resetToB();
+  }
+
+  if (contentOpen && active.endType === "aiFlashChat") {
+    return <AIFlashWorkspace lang={lang} onBack={resetToB} record={record} />;
+  }
+  if (contentOpen && active.endType === "appearanceCenter") return <AppearanceCenter lang={lang} onBack={resetToB}/>;
+  if (contentOpen && active.endType === "soundCenter") return <SoundCenter lang={lang} onBack={resetToB}/>;
+  if (contentOpen && active.endType === "privacyCenter") return <PrivacyCenter lang={lang} onBack={resetToB}/>;
+  if (contentOpen && active.endType === "securityCenter") return <SecurityCenter lang={lang} onBack={resetToB}/>;
+  if (contentOpen && active.endType === "stickerStore") return <StickerStore lang={lang} onBack={resetToB} mode="store"/>;
+  if (contentOpen && active.endType === "stickerWallet") return <StickerStore lang={lang} onBack={resetToB} mode="wallet"/>;
+  if (contentOpen && active.id === "checkout") return <PaymentCenter lang={lang} onBack={resetToB}/>;
 
   if (contentOpen) {
-    return (
-      <>
-        <section className="navLevelContext" aria-label="Current navigation level">
-          <div className="navLevelRow tree3Row">
-            {items.map((x) => (
-              <button
-                key={x.id}
-                className={(x.id === active.id ? "selected " : "") + (x.priority ? "priority " : "") + (x.danger ? "danger" : "")}
-                onClick={() => choose3(x.id)}
-              >
-                <b>{label(x.label, lang)}</b>
-              </button>
-            ))}
-          </div>
+    return <section className={`navWorkspace contentSurface mode-${content.mode || "grid"}`}>
+      <div className="workspaceCrumbs">
+        <button type="button" className="backKey" onClick={backOne}>← Back</button>
+        <button type="button" className="crumbKey selected" onClick={() => { setSelected(null); setDone(false); }}>{label(active.label, lang)}</button>
+        {action && <button type="button" className="crumbKey selected" onClick={() => { setSelected(null); setDone(false); }}>{tx(action.label, lang)}</button>}
+        {selected && <button type="button" className="crumbKey selected tree5Crumb">{tx(selected.label, lang)}</button>}
+      </div>
 
-          {!direct && (
-            <div className="navLevelRow tree4Row">
-              {childActs.map((x) => (
-                <button
-                  key={x.id}
-                  className={(action?.id === x.id ? "selected " : "") + (x.priority ? "priority " : "") + (x.danger ? "danger" : "")}
-                  onClick={() => choose4(x)}
-                >
-                  <b>{tx(x.label, lang)}</b>
-                </button>
-              ))}
-            </div>
-          )}
-        </section>
+      {content.note && !selected && <p className="contentNote">{tx(content.note, lang)}</p>}
 
-        <section className={`navGroupC contentSurface mode-${content.mode || "grid"}`}>
-          <div className="contentHead">
-            <button
-              type="button"
-              onClick={() => {
-                if (action) setAction(null);
-                else setOpenedDirectId(null);
-                setSelected(null);
-              }}
-            >
-              ← Quay lại
-            </button>
-          </div>
-
-          {content.note && <p className="contentNote">{tx(content.note, lang)}</p>}
-
-          <div className="contentGrid">
-            {content.items.map((x) => (
-              <button
-                key={x.id}
-                className={(x.priority ? "priority " : "") + (x.danger ? "danger " : "") + (selected?.id === x.id ? "selected " : "") + `kind-${x.kind || "action"}`}
-                onClick={() => chooseEnd(x)}
-              >
-                <b>{tx(x.label, lang)}</b>
-                {x.kind === "input" && <small>Input</small>}
-                {x.kind === "chat" && <small>Chat</small>}
-              </button>
-            ))}
-          </div>
-
-          {selected && (
-            <div className="contentResult">
-              <b>{tx(selected.label, lang)}</b>
-              <span>
-                {lang === "zh"
-                  ? "已选择。继续当前操作。"
-                  : lang === "en"
-                    ? "Selected. Continue this action."
-                    : "Đã chọn. Tiếp tục thao tác hiện tại."}
-              </span>
-            </div>
-          )}
-        </section>
-      </>
-    );
+      {!selected ? <div className="contentGrid">
+        {content.items.map((x) => <button type="button" key={x.id} className={(x.priority ? "priority " : "") + (x.danger ? "danger " : "") + `kind-${x.kind || "action"}`} onClick={() => choose5(x)}>
+          <b>{tx(x.label, lang)}</b>{x.kind === "input" && <small>Input → END</small>}{x.kind === "chat" && <small>Chat → END</small>}
+        </button>)}
+      </div> : <div className="endWorkPanel">
+        <div className="endWorkCopy"><b>{tx(selected.label, lang)}</b><span>{lang === "en" ? "Complete this operation to reach END." : lang === "zh" ? "完成此操作以到达 END。" : "Hoàn tất thao tác này để đạt END."}</span></div>
+        {(selected.kind === "input" || active.endType === "createNotice") && <label className="endInput"><span>{active.endType === "createNotice" ? (lang === "en" ? "Notice title / content" : lang === "zh" ? "通知标题 / 内容" : "Tiêu đề / nội dung thông báo") : (lang === "en" ? "Input" : lang === "zh" ? "输入" : "Nhập nội dung")}</span><textarea value={draft} onChange={e => setDraft(e.target.value)} /></label>}
+        {selected.kind === "chat" && <label className="endInput"><span>{lang === "en" ? "Message" : lang === "zh" ? "消息" : "Tin nhắn"}</span><textarea value={draft} onChange={e => setDraft(e.target.value)} /></label>}
+        <div className="endCommitRow"><button type="button" className="secondaryEnd" onClick={() => { setSelected(null); setDraft(""); }}>{lang === "en" ? "Choose again" : lang === "zh" ? "重新选择" : "Chọn lại"}</button><button type="button" className="endCommit" disabled={(selected.kind === "input" || selected.kind === "chat" || active.endType === "createNotice") && !draft.trim()} onClick={() => finishEnd()}>{done ? "✓ END" : endLabel(section, active, selected, lang)}</button></div>
+        <div className="endStatus"><b>END</b><span>{done ? (lang === "en" ? "Completed. Returning to the full Tree 3 + Tree 4 workspace…" : lang === "zh" ? "已完成。正在返回完整的树 3 + 树 4 工作区…" : "Đã hoàn tất. Đang trở lại đầy đủ Cây 3 + Cây 4…") : (lang === "en" ? "Every route must end with a result." : lang === "zh" ? "每条路径都必须以结果结束。" : "Mọi tuyến đều bắt buộc có kết quả END.")}</span></div>
+      </div>}
+    </section>;
   }
 
-  return (
-    <section className="navGroupB">
-      <div className="navColumn">
-        <div className="keyboardList">
-          {items.map((x) => (
-            <button key={x.id} className={(x.id === active.id ? "selected " : "") + (x.priority ? "priority " : "") + (x.danger ? "danger" : "")} onClick={() => choose3(x.id)}>
-              <b>{label(x.label, lang)}</b>
-            </button>
-          ))}
-        </div>
-      </div>
-      <div className="navColumn child">
-        <div className="keyboardList">
-          {childActs.map((x) => (
-            <button key={x.id} className={(x.priority ? "priority " : "") + (x.danger ? "danger" : "")} onClick={() => choose4(x)}>
-              <b>{tx(x.label, lang)}</b>
-            </button>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+  return <section className="navWorkspace navGroupB">
+    <div className="navColumn"><div className="keyboardList">{items.map((x) => <button type="button" key={x.id} className={(x.id === active.id ? "selected " : "") + (x.priority ? "priority " : "") + (x.danger ? "danger" : "")} onClick={() => choose3(x.id)}><b>{label(x.label, lang)}</b></button>)}</div></div>
+    <div className="navColumn child"><div className="keyboardList">
+      {direct ? <button type="button" className="priority" onClick={() => setOpenedDirectId(active.id)}><b>{lang === "en" ? "Open task → END" : lang === "zh" ? "打开任务 → END" : "Mở tác vụ → END"}</b></button> : childActs.map((x) => <button type="button" key={x.id} className={(x.priority ? "priority " : "") + (x.danger ? "danger" : "")} onClick={() => choose4(x)}><b>{tx(x.label, lang)}</b></button>)}
+    </div></div>
+  </section>;
 }
