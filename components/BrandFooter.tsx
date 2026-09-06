@@ -1,1 +1,10 @@
-export default function BrandFooter(){return <footer className="footer"><div className="brand">PHUC LONG CENTER</div><div className="meta"><span>Since 2019</span><span>Việt Yên, Hưng Yên Province, Việt Nam</span><span>Website · phuclong.live</span><span>Fanpage · Phúc Long Tivi</span></div><div className="tech">Long App • AI Flash Flow™ • Long Scene Language</div></footer>}
+"use client";
+import {useI18n} from "@/components/LanguageProvider";
+export default function BrandFooter(){
+ const{lang}=useI18n();
+ const place=lang==="zh"?"越南 · Việt Yên":"Việt Yên, Việt Nam";
+ return <footer className="footer brandFooterCompact">
+   <div className="brandLine"><b>Phuc Long Center</b><span>|</span><span>{place}</span></div>
+   <div className="techLine">Event Space@ <span>|</span> Flash Flow Engine™ <span>|</span> AI &amp; QRCode live check-in™</div>
+ </footer>
+}

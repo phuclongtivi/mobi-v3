@@ -1,1 +1,10 @@
-"use client";import {useState} from "react";import BrandFooter from "@/components/BrandFooter";const tabs=["Kho Hàng","Đơn Mua","Shopping","Khởi Tạo Store","Đăng/Tạo Sản Phẩm","Chính Sách Bán","Lên Kệ"] as const;export default function Page(){const[t,setT]=useState<string>("Kho Hàng");return <main className="page"><section className="hero"><h1>Store</h1><p>Owner-editable Shopping Inventory</p></section><div className="layerbar">{tabs.map(x=><button key={x} className={t===x?"active":""} onClick={()=>setT(x)}>{x}</button>)}</div><section className="panel"><div className="kpi">Store → {t}</div><div className="card" style={{marginTop:12}}><h3>{t}</h3><p>Người khởi tạo sản phẩm có thể cập nhật thông tin mặt hàng trong Shopping.</p><button className="action">{t==="Lên Kệ"?"Confirm · END":"Mở"}</button></div></section><BrandFooter/></main>}
+"use client";
+import {useState} from "react";
+import BrandFooter from "@/components/BrandFooter";
+import Nav3Navigator from "@/components/Nav3Navigator";
+import {core,label} from "@/lib/navigation";
+import type {CoreItem} from "@/lib/navigation";
+import {useI18n} from "@/components/LanguageProvider";
+export default function Page(){
+ const{lang}=useI18n();const groups:CoreItem[]=core.store as CoreItem[];const[id,setId]=useState(groups[0].id);const group=groups.find(x=>x.id===id)||groups[0];const[childId,setChildId]=useState(group.children[0].id);const child=group.children.find(x=>x.id===childId)||group.children[0];function choose(x:CoreItem){setId(x.id);setChildId(x.children[0].id)}
+ return <main className="page nav3Page"><div className="layerbar corebar nav3Corebar">{groups.map(x=><button key={x.id} className={id===x.id?"active":""} onClick={()=>choose(x)}>{label(x.label,lang)}</button>)}</div><Nav3Navigator section={group.id} items={group.children} activeId={child.id} onSelect={setChildId} lang={lang}/><BrandFooter/></main>}
