@@ -1,1 +1,0 @@
-export const platform={product:"Long Mobi",channel:"mobile-web",webFirst:true,capacitor:true,capabilities:{eventSpace:true,studio:true,store:true,aiJobs:true,pwa:true,ios:true,android:true}} as const;
