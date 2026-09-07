@@ -1,0 +1,3 @@
+"use client";
+import Link from "next/link";
+export default function BossRemote(){const a=[["LIVE","/studio"],["AI Approve","/ai-jobs"],["TV / Output","/studio"],["Event","/event/demo-live"],["Alerts","/me"],["Emergency Stop","#"]];return <main className="page"><section className="hero"><h1>Boss Remote</h1><p>Quick control • Long System</p></section><section className="bossRemoteGrid">{a.map(([x,h])=><Link className={"bossRemoteBtn "+(x==="Emergency Stop"?"danger":"")} href={h} key={x}>{x}</Link>)}</section><div className="notice">Boss Remote là control plane tối giản; Boss Desktop nằm ở PRO /boss.</div></main>}
