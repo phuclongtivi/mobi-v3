@@ -7,7 +7,8 @@
     "cap:add:android": "npx cap add android",
     "cap:add:ios": "npx cap add ios",
     "audit:content": "node scripts/audit-content-registry.mjs",
-    "audit:specialized": "node scripts/audit-specialized.mjs"
+    "audit:specialized": "node scripts/audit-specialized.mjs",
+    "audit:runtime-tree5": "node scripts/audit-runtime-tree5.mjs"
   },
   "dependencies": {
     "next": "^15.2.4",
