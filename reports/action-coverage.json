@@ -1,0 +1,1333 @@
+{
+  "generatedAt": "2026-09-08T07:12:28.311Z",
+  "surface": "mobi",
+  "policy": "Every UI button requires an explicit data-action-id mapped to an ActionContract.",
+  "totals": {
+    "controls": 165,
+    "mapped": 165,
+    "unmapped": 0,
+    "coveragePercent": 100
+  },
+  "controls": [
+    {
+      "surface": "mobi",
+      "file": "app/ai-jobs/page.tsx",
+      "line": 12,
+      "column": 345,
+      "explicitActionId": "data-action-id=\"mobi.app.ai.jobs.page.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/ai-jobs/page.tsx",
+      "line": 12,
+      "column": 659,
+      "explicitActionId": "data-action-id=\"mobi.app.ai.jobs.page.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/ai-jobs/page.tsx",
+      "line": 12,
+      "column": 790,
+      "explicitActionId": "data-action-id=\"mobi.app.ai.jobs.page.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/event/[token]/page.tsx",
+      "line": 78,
+      "column": 285,
+      "explicitActionId": "data-action-id=\"mobi.app.event.token.page.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/event/[token]/page.tsx",
+      "line": 83,
+      "column": 49,
+      "explicitActionId": "data-action-id=\"mobi.app.event.token.page.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/event/[token]/page.tsx",
+      "line": 86,
+      "column": 171,
+      "explicitActionId": "data-action-id=\"mobi.app.event.token.page.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/event/create/page.tsx",
+      "line": 32,
+      "column": 3,
+      "explicitActionId": "data-action-id=\"mobi.app.event.create.page.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/me/page.tsx",
+      "line": 10,
+      "column": 102,
+      "explicitActionId": "data-action-id=\"mobi.app.me.page.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/page.tsx",
+      "line": 10,
+      "column": 102,
+      "explicitActionId": "data-action-id=\"mobi.app.page.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/store/page.tsx",
+      "line": 10,
+      "column": 102,
+      "explicitActionId": "data-action-id=\"mobi.app.store.page.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/studio/page.tsx",
+      "line": 10,
+      "column": 102,
+      "explicitActionId": "data-action-id=\"mobi.app.studio.page.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "app/tv/pair/[token]/page.tsx",
+      "line": 8,
+      "column": 231,
+      "explicitActionId": "data-action-id=\"mobi.app.tv.pair.token.page.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 1621,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 1936,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 2204,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 3889,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 4005,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 4139,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.006\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 4263,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.007\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 4380,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.008\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 4504,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.009\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 5,
+      "column": 5168,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.010\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 202,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.011\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 335,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.012\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 468,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.013\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 601,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.014\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 1052,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.015\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 1133,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.016\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 1214,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.017\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 1296,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.018\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 6,
+      "column": 1378,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.019\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/BroadcastControl.tsx",
+      "line": 7,
+      "column": 238,
+      "explicitActionId": "data-action-id=\"mobi.components.broadcastcontrol.button.020\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ConnectionGateway.tsx",
+      "line": 9,
+      "column": 629,
+      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ConnectionGateway.tsx",
+      "line": 9,
+      "column": 1060,
+      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ConnectionGateway.tsx",
+      "line": 9,
+      "column": 1178,
+      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ConnectionGateway.tsx",
+      "line": 9,
+      "column": 1266,
+      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ConnectionGateway.tsx",
+      "line": 9,
+      "column": 1372,
+      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 9,
+      "column": 111,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 9,
+      "column": 251,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 11,
+      "column": 338,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 11,
+      "column": 441,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 11,
+      "column": 552,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 11,
+      "column": 663,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.006\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 11,
+      "column": 769,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.007\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 11,
+      "column": 878,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.008\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 13,
+      "column": 695,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.009\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 13,
+      "column": 848,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.010\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 13,
+      "column": 1004,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.011\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 13,
+      "column": 1142,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.012\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 15,
+      "column": 349,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.013\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 15,
+      "column": 567,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.014\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 15,
+      "column": 732,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.015\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 15,
+      "column": 892,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.016\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 15,
+      "column": 1035,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.017\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 15,
+      "column": 1197,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.018\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 17,
+      "column": 341,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.019\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 17,
+      "column": 483,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.020\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 17,
+      "column": 598,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.021\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 17,
+      "column": 718,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.022\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 17,
+      "column": 877,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.023\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 27,
+      "column": 559,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.024\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 27,
+      "column": 1259,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.025\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 27,
+      "column": 1409,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.026\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 27,
+      "column": 1555,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.027\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 27,
+      "column": 1699,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.028\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 29,
+      "column": 547,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.029\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ContentCompletePanels.tsx",
+      "line": 29,
+      "column": 1103,
+      "explicitActionId": "data-action-id=\"mobi.components.contentcompletepanels.button.030\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/FunctionalTaskPanel.tsx",
+      "line": 7,
+      "column": 641,
+      "explicitActionId": "data-action-id=\"mobi.components.functionaltaskpanel.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/FunctionalTaskPanel.tsx",
+      "line": 9,
+      "column": 32,
+      "explicitActionId": "data-action-id=\"mobi.components.functionaltaskpanel.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/FunctionalTaskPanel.tsx",
+      "line": 9,
+      "column": 211,
+      "explicitActionId": "data-action-id=\"mobi.components.functionaltaskpanel.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/LanguageProvider.tsx",
+      "line": 15,
+      "column": 281,
+      "explicitActionId": "data-action-id=\"mobi.components.languageprovider.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/LongFocusNavigator.tsx",
+      "line": 18,
+      "column": 4,
+      "explicitActionId": "data-action-id=\"mobi.components.longfocusnavigator.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/LongFocusNavigator.tsx",
+      "line": 21,
+      "column": 147,
+      "explicitActionId": "data-action-id=\"mobi.components.longfocusnavigator.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/LongFocusNavigator.tsx",
+      "line": 23,
+      "column": 4,
+      "explicitActionId": "data-action-id=\"mobi.components.longfocusnavigator.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 14,
+      "column": 94,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 14,
+      "column": 233,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 14,
+      "column": 392,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 14,
+      "column": 524,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 16,
+      "column": 34,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 16,
+      "column": 516,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.006\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 16,
+      "column": 727,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.007\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 18,
+      "column": 32,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.008\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/MediaConnectionPanel.tsx",
+      "line": 18,
+      "column": 210,
+      "explicitActionId": "data-action-id=\"mobi.components.mediaconnectionpanel.button.009\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 711,
+      "column": 7,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 712,
+      "column": 7,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 719,
+      "column": 51,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 722,
+      "column": 9,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 725,
+      "column": 9,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 726,
+      "column": 9,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.006\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 727,
+      "column": 9,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.007\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 808,
+      "column": 9,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.008\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 809,
+      "column": 9,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.009\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 810,
+      "column": 20,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.010\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 811,
+      "column": 22,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.011\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 817,
+      "column": 35,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.012\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 823,
+      "column": 39,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.013\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 823,
+      "column": 276,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.014\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 829,
+      "column": 80,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.015\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 831,
+      "column": 17,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.016\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/Nav3Navigator.tsx",
+      "line": 831,
+      "column": 344,
+      "explicitActionId": "data-action-id=\"mobi.components.nav3navigator.button.017\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ProductCreateForm.tsx",
+      "line": 10,
+      "column": 36,
+      "explicitActionId": "data-action-id=\"mobi.components.productcreateform.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ProductCreateForm.tsx",
+      "line": 10,
+      "column": 172,
+      "explicitActionId": "data-action-id=\"mobi.components.productcreateform.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ProductCreateForm.tsx",
+      "line": 10,
+      "column": 331,
+      "explicitActionId": "data-action-id=\"mobi.components.productcreateform.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ProductCreateForm.tsx",
+      "line": 22,
+      "column": 33,
+      "explicitActionId": "data-action-id=\"mobi.components.productcreateform.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ProductCreateForm.tsx",
+      "line": 22,
+      "column": 223,
+      "explicitActionId": "data-action-id=\"mobi.components.productcreateform.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/RuntimeActionPanel.tsx",
+      "line": 9,
+      "column": 34,
+      "explicitActionId": "data-action-id=\"mobi.components.runtimeactionpanel.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/RuntimeActionPanel.tsx",
+      "line": 10,
+      "column": 33,
+      "explicitActionId": "data-action-id=\"mobi.components.runtimeactionpanel.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/RuntimeActionPanel.tsx",
+      "line": 10,
+      "column": 201,
+      "explicitActionId": "data-action-id=\"mobi.components.runtimeactionpanel.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 66,
+      "column": 296,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 67,
+      "column": 586,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 68,
+      "column": 403,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 69,
+      "column": 657,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 69,
+      "column": 811,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 69,
+      "column": 957,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.006\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 70,
+      "column": 362,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.007\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 71,
+      "column": 363,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.008\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 72,
+      "column": 297,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.009\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 73,
+      "column": 87,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.010\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 73,
+      "column": 314,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.011\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 73,
+      "column": 547,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.012\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 73,
+      "column": 817,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.013\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 74,
+      "column": 104,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.014\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 74,
+      "column": 292,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.015\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 75,
+      "column": 309,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.016\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 75,
+      "column": 440,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.017\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 75,
+      "column": 574,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.018\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 75,
+      "column": 782,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.019\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 76,
+      "column": 549,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.020\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 79,
+      "column": 342,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.021\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 79,
+      "column": 607,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.022\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 79,
+      "column": 1525,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.023\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 81,
+      "column": 68,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.024\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 82,
+      "column": 287,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.025\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 83,
+      "column": 1160,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.026\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 84,
+      "column": 786,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.027\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 86,
+      "column": 859,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.028\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 87,
+      "column": 788,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.029\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 88,
+      "column": 290,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.030\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 90,
+      "column": 385,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.031\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 92,
+      "column": 339,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.032\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 94,
+      "column": 35,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.033\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/SemanticSpecializedPanel.tsx",
+      "line": 94,
+      "column": 259,
+      "explicitActionId": "data-action-id=\"mobi.components.semanticspecializedpanel.button.034\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 22,
+      "column": 35,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 22,
+      "column": 207,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 26,
+      "column": 1458,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 27,
+      "column": 35,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 27,
+      "column": 207,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 32,
+      "column": 35,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.006\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 32,
+      "column": 207,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.007\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 36,
+      "column": 253,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.008\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 37,
+      "column": 91,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.009\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/StudioWorkflowPanel.tsx",
+      "line": 37,
+      "column": 263,
+      "explicitActionId": "data-action-id=\"mobi.components.studioworkflowpanel.button.010\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TemplateVideoBuilder.tsx",
+      "line": 16,
+      "column": 36,
+      "explicitActionId": "data-action-id=\"mobi.components.templatevideobuilder.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TemplateVideoBuilder.tsx",
+      "line": 16,
+      "column": 175,
+      "explicitActionId": "data-action-id=\"mobi.components.templatevideobuilder.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TemplateVideoBuilder.tsx",
+      "line": 16,
+      "column": 332,
+      "explicitActionId": "data-action-id=\"mobi.components.templatevideobuilder.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TemplateVideoBuilder.tsx",
+      "line": 24,
+      "column": 33,
+      "explicitActionId": "data-action-id=\"mobi.components.templatevideobuilder.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TemplateVideoBuilder.tsx",
+      "line": 24,
+      "column": 201,
+      "explicitActionId": "data-action-id=\"mobi.components.templatevideobuilder.button.005\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TemplateVideoBuilder.tsx",
+      "line": 24,
+      "column": 469,
+      "explicitActionId": "data-action-id=\"mobi.components.templatevideobuilder.button.006\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ThemePicker.tsx",
+      "line": 4,
+      "column": 516,
+      "explicitActionId": "data-action-id=\"mobi.components.themepicker.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/ThemePicker.tsx",
+      "line": 4,
+      "column": 745,
+      "explicitActionId": "data-action-id=\"mobi.components.themepicker.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TreeContent.tsx",
+      "line": 8,
+      "column": 1044,
+      "explicitActionId": "data-action-id=\"mobi.components.treecontent.button.001\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TreeContent.tsx",
+      "line": 8,
+      "column": 1385,
+      "explicitActionId": "data-action-id=\"mobi.components.treecontent.button.002\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TreeContent.tsx",
+      "line": 8,
+      "column": 1660,
+      "explicitActionId": "data-action-id=\"mobi.components.treecontent.button.003\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/TreeContent.tsx",
+      "line": 8,
+      "column": 1796,
+      "explicitActionId": "data-action-id=\"mobi.components.treecontent.button.004\"",
+      "status": "mapped"
+    },
+    {
+      "surface": "mobi",
+      "file": "components/WelcomeExperience.tsx",
+      "line": 20,
+      "column": 4,
+      "explicitActionId": "data-action-id=\"mobi.components.welcomeexperience.button.001\"",
+      "status": "mapped"
+    }
+  ]
+}

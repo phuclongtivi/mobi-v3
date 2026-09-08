@@ -1,0 +1,3966 @@
+{
+  "generatedAt": "2026-09-08T07:12:28.388Z",
+  "surface": "mobi",
+  "contracts": [
+    {
+      "actionId": "mobi.app.ai.jobs.page.button.001",
+      "name": "Button at app/ai-jobs/page.tsx:12",
+      "surface": "mobi",
+      "screen": "app/ai-jobs/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.ai.jobs.page.button.002",
+      "name": "Button at app/ai-jobs/page.tsx:12",
+      "surface": "mobi",
+      "screen": "app/ai-jobs/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.ai.jobs.page.button.003",
+      "name": "Button at app/ai-jobs/page.tsx:12",
+      "surface": "mobi",
+      "screen": "app/ai-jobs/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.event.token.page.button.001",
+      "name": "Button at app/event/[token]/page.tsx:78",
+      "surface": "mobi",
+      "screen": "app/event/[token]/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.event.token.page.button.002",
+      "name": "Button at app/event/[token]/page.tsx:83",
+      "surface": "mobi",
+      "screen": "app/event/[token]/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.event.token.page.button.003",
+      "name": "Button at app/event/[token]/page.tsx:86",
+      "surface": "mobi",
+      "screen": "app/event/[token]/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.event.create.page.button.001",
+      "name": "Button at app/event/create/page.tsx:32",
+      "surface": "mobi",
+      "screen": "app/event/create/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.me.page.button.001",
+      "name": "Button at app/me/page.tsx:10",
+      "surface": "mobi",
+      "screen": "app/me/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.page.button.001",
+      "name": "Button at app/page.tsx:10",
+      "surface": "mobi",
+      "screen": "app/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.store.page.button.001",
+      "name": "Button at app/store/page.tsx:10",
+      "surface": "mobi",
+      "screen": "app/store/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.studio.page.button.001",
+      "name": "Button at app/studio/page.tsx:10",
+      "surface": "mobi",
+      "screen": "app/studio/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.app.tv.pair.token.page.button.001",
+      "name": "Button at app/tv/pair/[token]/page.tsx:8",
+      "surface": "mobi",
+      "screen": "app/tv/pair/[token]/page.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.001",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.002",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.003",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.004",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.005",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.006",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.007",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.008",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.009",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.010",
+      "name": "Button at components/BroadcastControl.tsx:5",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.011",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.012",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.013",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.014",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.015",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.016",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.017",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.018",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.019",
+      "name": "Button at components/BroadcastControl.tsx:6",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.broadcastcontrol.button.020",
+      "name": "Button at components/BroadcastControl.tsx:7",
+      "surface": "mobi",
+      "screen": "components/BroadcastControl.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.connectiongateway.button.001",
+      "name": "Button at components/ConnectionGateway.tsx:9",
+      "surface": "mobi",
+      "screen": "components/ConnectionGateway.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.connectiongateway.button.002",
+      "name": "Button at components/ConnectionGateway.tsx:9",
+      "surface": "mobi",
+      "screen": "components/ConnectionGateway.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.connectiongateway.button.003",
+      "name": "Button at components/ConnectionGateway.tsx:9",
+      "surface": "mobi",
+      "screen": "components/ConnectionGateway.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.connectiongateway.button.004",
+      "name": "Button at components/ConnectionGateway.tsx:9",
+      "surface": "mobi",
+      "screen": "components/ConnectionGateway.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.connectiongateway.button.005",
+      "name": "Button at components/ConnectionGateway.tsx:9",
+      "surface": "mobi",
+      "screen": "components/ConnectionGateway.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.001",
+      "name": "Button at components/ContentCompletePanels.tsx:9",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.002",
+      "name": "Button at components/ContentCompletePanels.tsx:9",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.003",
+      "name": "Button at components/ContentCompletePanels.tsx:11",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.004",
+      "name": "Button at components/ContentCompletePanels.tsx:11",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.005",
+      "name": "Button at components/ContentCompletePanels.tsx:11",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.006",
+      "name": "Button at components/ContentCompletePanels.tsx:11",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.007",
+      "name": "Button at components/ContentCompletePanels.tsx:11",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.008",
+      "name": "Button at components/ContentCompletePanels.tsx:11",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.009",
+      "name": "Button at components/ContentCompletePanels.tsx:13",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.010",
+      "name": "Button at components/ContentCompletePanels.tsx:13",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.011",
+      "name": "Button at components/ContentCompletePanels.tsx:13",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.012",
+      "name": "Button at components/ContentCompletePanels.tsx:13",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.013",
+      "name": "Button at components/ContentCompletePanels.tsx:15",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.014",
+      "name": "Button at components/ContentCompletePanels.tsx:15",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.015",
+      "name": "Button at components/ContentCompletePanels.tsx:15",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.016",
+      "name": "Button at components/ContentCompletePanels.tsx:15",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.017",
+      "name": "Button at components/ContentCompletePanels.tsx:15",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.018",
+      "name": "Button at components/ContentCompletePanels.tsx:15",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.019",
+      "name": "Button at components/ContentCompletePanels.tsx:17",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.020",
+      "name": "Button at components/ContentCompletePanels.tsx:17",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.021",
+      "name": "Button at components/ContentCompletePanels.tsx:17",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.022",
+      "name": "Button at components/ContentCompletePanels.tsx:17",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.023",
+      "name": "Button at components/ContentCompletePanels.tsx:17",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.024",
+      "name": "Button at components/ContentCompletePanels.tsx:27",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.025",
+      "name": "Button at components/ContentCompletePanels.tsx:27",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.026",
+      "name": "Button at components/ContentCompletePanels.tsx:27",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.027",
+      "name": "Button at components/ContentCompletePanels.tsx:27",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.028",
+      "name": "Button at components/ContentCompletePanels.tsx:27",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.029",
+      "name": "Button at components/ContentCompletePanels.tsx:29",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.contentcompletepanels.button.030",
+      "name": "Button at components/ContentCompletePanels.tsx:29",
+      "surface": "mobi",
+      "screen": "components/ContentCompletePanels.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.functionaltaskpanel.button.001",
+      "name": "Button at components/FunctionalTaskPanel.tsx:7",
+      "surface": "mobi",
+      "screen": "components/FunctionalTaskPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.functionaltaskpanel.button.002",
+      "name": "Button at components/FunctionalTaskPanel.tsx:9",
+      "surface": "mobi",
+      "screen": "components/FunctionalTaskPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.functionaltaskpanel.button.003",
+      "name": "Button at components/FunctionalTaskPanel.tsx:9",
+      "surface": "mobi",
+      "screen": "components/FunctionalTaskPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.languageprovider.button.001",
+      "name": "Button at components/LanguageProvider.tsx:15",
+      "surface": "mobi",
+      "screen": "components/LanguageProvider.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.longfocusnavigator.button.001",
+      "name": "Button at components/LongFocusNavigator.tsx:18",
+      "surface": "mobi",
+      "screen": "components/LongFocusNavigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.longfocusnavigator.button.002",
+      "name": "Button at components/LongFocusNavigator.tsx:21",
+      "surface": "mobi",
+      "screen": "components/LongFocusNavigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.longfocusnavigator.button.003",
+      "name": "Button at components/LongFocusNavigator.tsx:23",
+      "surface": "mobi",
+      "screen": "components/LongFocusNavigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.001",
+      "name": "Button at components/MediaConnectionPanel.tsx:14",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.002",
+      "name": "Button at components/MediaConnectionPanel.tsx:14",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.003",
+      "name": "Button at components/MediaConnectionPanel.tsx:14",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.004",
+      "name": "Button at components/MediaConnectionPanel.tsx:14",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.005",
+      "name": "Button at components/MediaConnectionPanel.tsx:16",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.006",
+      "name": "Button at components/MediaConnectionPanel.tsx:16",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.007",
+      "name": "Button at components/MediaConnectionPanel.tsx:16",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.008",
+      "name": "Button at components/MediaConnectionPanel.tsx:18",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.mediaconnectionpanel.button.009",
+      "name": "Button at components/MediaConnectionPanel.tsx:18",
+      "surface": "mobi",
+      "screen": "components/MediaConnectionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.001",
+      "name": "Button at components/Nav3Navigator.tsx:711",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.002",
+      "name": "Button at components/Nav3Navigator.tsx:712",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.003",
+      "name": "Button at components/Nav3Navigator.tsx:719",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.004",
+      "name": "Button at components/Nav3Navigator.tsx:722",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.005",
+      "name": "Button at components/Nav3Navigator.tsx:725",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.006",
+      "name": "Button at components/Nav3Navigator.tsx:726",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.007",
+      "name": "Button at components/Nav3Navigator.tsx:727",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.008",
+      "name": "Button at components/Nav3Navigator.tsx:808",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.009",
+      "name": "Button at components/Nav3Navigator.tsx:809",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.010",
+      "name": "Button at components/Nav3Navigator.tsx:810",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.011",
+      "name": "Button at components/Nav3Navigator.tsx:811",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.012",
+      "name": "Button at components/Nav3Navigator.tsx:817",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.013",
+      "name": "Button at components/Nav3Navigator.tsx:823",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.014",
+      "name": "Button at components/Nav3Navigator.tsx:823",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.015",
+      "name": "Button at components/Nav3Navigator.tsx:829",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.016",
+      "name": "Button at components/Nav3Navigator.tsx:831",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.nav3navigator.button.017",
+      "name": "Button at components/Nav3Navigator.tsx:831",
+      "surface": "mobi",
+      "screen": "components/Nav3Navigator.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.productcreateform.button.001",
+      "name": "Button at components/ProductCreateForm.tsx:10",
+      "surface": "mobi",
+      "screen": "components/ProductCreateForm.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.productcreateform.button.002",
+      "name": "Button at components/ProductCreateForm.tsx:10",
+      "surface": "mobi",
+      "screen": "components/ProductCreateForm.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.productcreateform.button.003",
+      "name": "Button at components/ProductCreateForm.tsx:10",
+      "surface": "mobi",
+      "screen": "components/ProductCreateForm.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.productcreateform.button.004",
+      "name": "Button at components/ProductCreateForm.tsx:22",
+      "surface": "mobi",
+      "screen": "components/ProductCreateForm.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.productcreateform.button.005",
+      "name": "Button at components/ProductCreateForm.tsx:22",
+      "surface": "mobi",
+      "screen": "components/ProductCreateForm.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.runtimeactionpanel.button.001",
+      "name": "Button at components/RuntimeActionPanel.tsx:9",
+      "surface": "mobi",
+      "screen": "components/RuntimeActionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.runtimeactionpanel.button.002",
+      "name": "Button at components/RuntimeActionPanel.tsx:10",
+      "surface": "mobi",
+      "screen": "components/RuntimeActionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.runtimeactionpanel.button.003",
+      "name": "Button at components/RuntimeActionPanel.tsx:10",
+      "surface": "mobi",
+      "screen": "components/RuntimeActionPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.001",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:66",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.002",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:67",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.003",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:68",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.004",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:69",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.005",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:69",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.006",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:69",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.007",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:70",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.008",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:71",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.009",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:72",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.010",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:73",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.011",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:73",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.012",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:73",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.013",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:73",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.014",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:74",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.015",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:74",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.016",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:75",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.017",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:75",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.018",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:75",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.019",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:75",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.020",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:76",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.021",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:79",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.022",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:79",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.023",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:79",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.024",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:81",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.025",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:82",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.026",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:83",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.027",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:84",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.028",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:86",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.029",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:87",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.030",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:88",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.031",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:90",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.032",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:92",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.033",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:94",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.semanticspecializedpanel.button.034",
+      "name": "Button at components/SemanticSpecializedPanel.tsx:94",
+      "surface": "mobi",
+      "screen": "components/SemanticSpecializedPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.001",
+      "name": "Button at components/StudioWorkflowPanel.tsx:22",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.002",
+      "name": "Button at components/StudioWorkflowPanel.tsx:22",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.003",
+      "name": "Button at components/StudioWorkflowPanel.tsx:26",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.004",
+      "name": "Button at components/StudioWorkflowPanel.tsx:27",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.005",
+      "name": "Button at components/StudioWorkflowPanel.tsx:27",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.006",
+      "name": "Button at components/StudioWorkflowPanel.tsx:32",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.007",
+      "name": "Button at components/StudioWorkflowPanel.tsx:32",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.008",
+      "name": "Button at components/StudioWorkflowPanel.tsx:36",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.009",
+      "name": "Button at components/StudioWorkflowPanel.tsx:37",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.studioworkflowpanel.button.010",
+      "name": "Button at components/StudioWorkflowPanel.tsx:37",
+      "surface": "mobi",
+      "screen": "components/StudioWorkflowPanel.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.templatevideobuilder.button.001",
+      "name": "Button at components/TemplateVideoBuilder.tsx:16",
+      "surface": "mobi",
+      "screen": "components/TemplateVideoBuilder.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.templatevideobuilder.button.002",
+      "name": "Button at components/TemplateVideoBuilder.tsx:16",
+      "surface": "mobi",
+      "screen": "components/TemplateVideoBuilder.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.templatevideobuilder.button.003",
+      "name": "Button at components/TemplateVideoBuilder.tsx:16",
+      "surface": "mobi",
+      "screen": "components/TemplateVideoBuilder.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.templatevideobuilder.button.004",
+      "name": "Button at components/TemplateVideoBuilder.tsx:24",
+      "surface": "mobi",
+      "screen": "components/TemplateVideoBuilder.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.templatevideobuilder.button.005",
+      "name": "Button at components/TemplateVideoBuilder.tsx:24",
+      "surface": "mobi",
+      "screen": "components/TemplateVideoBuilder.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.templatevideobuilder.button.006",
+      "name": "Button at components/TemplateVideoBuilder.tsx:24",
+      "surface": "mobi",
+      "screen": "components/TemplateVideoBuilder.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.themepicker.button.001",
+      "name": "Button at components/ThemePicker.tsx:4",
+      "surface": "mobi",
+      "screen": "components/ThemePicker.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.themepicker.button.002",
+      "name": "Button at components/ThemePicker.tsx:4",
+      "surface": "mobi",
+      "screen": "components/ThemePicker.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.treecontent.button.001",
+      "name": "Button at components/TreeContent.tsx:8",
+      "surface": "mobi",
+      "screen": "components/TreeContent.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.treecontent.button.002",
+      "name": "Button at components/TreeContent.tsx:8",
+      "surface": "mobi",
+      "screen": "components/TreeContent.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.treecontent.button.003",
+      "name": "Button at components/TreeContent.tsx:8",
+      "surface": "mobi",
+      "screen": "components/TreeContent.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.treecontent.button.004",
+      "name": "Button at components/TreeContent.tsx:8",
+      "surface": "mobi",
+      "screen": "components/TreeContent.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    },
+    {
+      "actionId": "mobi.components.welcomeexperience.button.001",
+      "name": "Button at components/WelcomeExperience.tsx:20",
+      "surface": "mobi",
+      "screen": "components/WelcomeExperience.tsx",
+      "ownerCore": "eventspace",
+      "status": "gated",
+      "permissions": [],
+      "preconditions": [
+        "executor-and-receipt-mapping-required"
+      ],
+      "inputSchema": "none",
+      "executor": "job",
+      "receiptSchema": "unconfigured",
+      "resultStates": [
+        "success",
+        "failed",
+        "pending",
+        "gated"
+      ],
+      "fallback": "show-gated",
+      "telemetry": "action-ledger/v1",
+      "lastReviewedAt": "2026-09-08"
+    }
+  ]
+}
