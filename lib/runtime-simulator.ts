@@ -1,0 +1,1 @@
+import type{Command}from"@/lib/execution-contract";export function simulate(c:Command){return{ok:false,mode:"simulator",state:"pending",code:"SIMULATION_ONLY",message:"Mô phỏng không phát hành success receipt.",plan:{actionId:c.actionId,adapter:c.adapter}}}
