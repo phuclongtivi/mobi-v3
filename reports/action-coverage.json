@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-08T07:12:28.311Z",
+  "generatedAt": "2026-09-08T08:48:29.369Z",
   "surface": "mobi",
   "policy": "Every UI button requires an explicit data-action-id mapped to an ActionContract.",
   "totals": {
-    "controls": 165,
-    "mapped": 165,
+    "controls": 164,
+    "mapped": 164,
     "unmapped": 0,
     "coveragePercent": 100
   },
@@ -268,41 +268,33 @@
     {
       "surface": "mobi",
       "file": "components/ConnectionGateway.tsx",
-      "line": 9,
-      "column": 629,
-      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.001\"",
+      "line": 2,
+      "column": 1559,
+      "explicitActionId": "data-action-id={`mobi.connect.${kind}.discover`}",
       "status": "mapped"
     },
     {
       "surface": "mobi",
       "file": "components/ConnectionGateway.tsx",
-      "line": 9,
-      "column": 1060,
-      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.002\"",
+      "line": 2,
+      "column": 1727,
+      "explicitActionId": "data-action-id={`mobi.connect.${kind}.${x.id}`}",
       "status": "mapped"
     },
     {
       "surface": "mobi",
       "file": "components/ConnectionGateway.tsx",
-      "line": 9,
-      "column": 1178,
-      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.003\"",
+      "line": 2,
+      "column": 2194,
+      "explicitActionId": "data-action-id={`mobi.connect.${kind}.cancel`}",
       "status": "mapped"
     },
     {
       "surface": "mobi",
       "file": "components/ConnectionGateway.tsx",
-      "line": 9,
-      "column": 1266,
-      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.004\"",
-      "status": "mapped"
-    },
-    {
-      "surface": "mobi",
-      "file": "components/ConnectionGateway.tsx",
-      "line": 9,
-      "column": 1372,
-      "explicitActionId": "data-action-id=\"mobi.components.connectiongateway.button.005\"",
+      "line": 2,
+      "column": 2316,
+      "explicitActionId": "data-action-id={`mobi.connect.${kind}.confirm`}",
       "status": "mapped"
     },
     {
