@@ -1,6 +1,35 @@
-import {isVerifiedReceipt,type ActionContract,type ActionInvocation,type ActionReceipt} from "@/lib/action-contract";
-const registry=new Map<string,ActionContract>();
-export function registerAction(contract:ActionContract){if(registry.has(contract.actionId))throw new Error(`Duplicate actionId: ${contract.actionId}`);registry.set(contract.actionId,contract);return contract}
-export function beginAction(contract:ActionContract):ActionInvocation{if(!registry.has(contract.actionId))registerAction(contract);const invocationId=`${contract.actionId}:${Date.now().toString(36)}:${crypto.randomUUID().slice(0,8)}`;return{invocationId,actionId:contract.actionId,startedAt:new Date().toISOString(),state:contract.status==="active"?"pending":"gated",reason:contract.status==="active"?undefined:"action-not-active"}}
-export function settleAction(invocation:ActionInvocation,receipt?:ActionReceipt):ActionInvocation{if(!receipt)return{...invocation,state:"pending",reason:"missing-receipt"};if(!isVerifiedReceipt(receipt,invocation.actionId))return{...invocation,state:receipt.state==="gated"?"gated":"failed",receipt,reason:"invalid-receipt"};return{...invocation,state:"success",receipt,reason:undefined}}
-export function actionRegistrySnapshot(){return[...registry.values()].sort((a,b)=>a.actionId.localeCompare(b.actionId))}
+import {isVerifiedReceipt, type ActionInvocation, type ActionReceipt} from "@/lib/action-contract";
+import {discoverAction} from "@/lib/action-registry";
+
+export function beginAction(input: {
+  actionId?: string;
+  name: string;
+  area: string;
+  screen: string;
+}): ActionInvocation {
+  const contract = discoverAction(input);
+  const invocationId = `${contract.actionId}:${Date.now().toString(36)}:${crypto.randomUUID().slice(0, 8)}`;
+  if (contract.status !== "active") {
+    return {
+      invocationId,
+      actionId: contract.actionId,
+      startedAt: new Date().toISOString(),
+      state: "gated",
+      reason: contract.preconditions.join(",") || "action-not-active",
+    };
+  }
+  return {
+    invocationId,
+    actionId: contract.actionId,
+    startedAt: new Date().toISOString(),
+    state: "pending",
+  };
+}
+
+export function settleAction(invocation: ActionInvocation, receipt?: ActionReceipt): ActionInvocation {
+  if (!receipt) return {...invocation, state: "pending", reason: "missing-receipt"};
+  if (!isVerifiedReceipt(receipt, invocation.actionId)) {
+    return {...invocation, state: receipt.state === "gated" ? "gated" : "failed", receipt, reason: "invalid-receipt"};
+  }
+  return {...invocation, state: "success", receipt, reason: undefined};
+}

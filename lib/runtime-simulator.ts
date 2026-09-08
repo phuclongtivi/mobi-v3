@@ -1,1 +1,2 @@
-import type{Command}from"@/lib/execution-contract";export function simulate(c:Command){return{ok:false,mode:"simulator",state:"pending",code:"SIMULATION_ONLY",message:"Mô phỏng không phát hành success receipt.",plan:{actionId:c.actionId,adapter:c.adapter}}}
+import type {ExecutionCommand} from "@/lib/execution-contract";
+export function simulate(command:ExecutionCommand){return{ok:false,mode:"simulator",state:"pending",code:"SIMULATION_ONLY",message:"Mô phỏng chỉ tạo kế hoạch; không được phát hành receipt thành công.",plan:{actionId:command.actionId,adapter:command.adapter,cores:["eventspace","connection","long-scene","flash-flow","media","long-ai"]}}}
